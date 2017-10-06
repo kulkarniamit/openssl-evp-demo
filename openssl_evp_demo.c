@@ -161,7 +161,7 @@ int main(int argc, char *argv[]) {
     fclose(f_enc);
 
     /* Decrypt the file */
-    /* Indicate that we want to encrypt */
+    /* Indicate that we want to decrypt */
     params->encrypt = 0;
 
     /* Open the encrypted file for reading in binary ("rb" mode) */
